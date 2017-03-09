@@ -1,0 +1,16 @@
+_schema-version: '2.0'
+ID: LeverXCars50
+version: 0.0.1
+
+modules:
+ - name: web
+   type: html5
+   path: web
+   requires:
+    - name: levxcars50-uaa
+    
+resources:
+ - name: levxcars50-uaa
+   parameters:
+     config_path: ./xs-security.json
+   type: com.sap.xs.uaa
