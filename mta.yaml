@@ -8,7 +8,7 @@ modules:
    path: web
    requires:
     - name: levxcars50-uaa
-    
+
 resources:
  - name: levxcars50-uaa
    parameters:
